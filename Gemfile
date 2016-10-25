@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'trix'
 # Mysql2
 gem 'mysql2'
+# font-awesome-rails
+gem "font-awesome-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
