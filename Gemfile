@@ -33,6 +33,11 @@ gem 'trix'
 gem 'mysql2'
 # font-awesome-rails
 gem "font-awesome-rails"
+# elasticsearch
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+# instagram
+gem 'instagram'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

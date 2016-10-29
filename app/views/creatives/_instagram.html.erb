@@ -1,0 +1,15 @@
+<section id="instagram" class="text-center">
+	<div id="instagram" class="col-lg-12">
+		<h2 class="section-heading">A look into my life</h2>
+		<!-- show instagram images by 'renanfsouzadotcom' tag -->
+		<!-- <%= debug @instagram %> -->
+		<% if @instagram %>
+			<% @instagram.each do |instagram| %>
+				<%= image_tag instagram.images.standard_resolution.url, :size => '260' %>		
+			<% end %>
+		<% else %>
+			Oops..I'm in trouble!
+		<% end %>
+	</div>
+	<a href="#" class="btn btn-default btn-xl wow tada" style="border-color: #222; visibility: visible; animation-name: tada;">Follow me on instagram</a>
+</section>
